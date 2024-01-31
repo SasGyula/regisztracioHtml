@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    background-color: rgb(231, 243, 247);
+    font-family: "Gill Sans", sans-serif;
+}
+.regisztracio label{
+    float: left;
+    width: 300px;
+    margin-top: 3%;
+}
+
+form input{
+    margin-top: 3%;
+}
+
+br{
+    clear: both;
+}
+fieldset{
+    padding: 10px;
+    background-color: rgb(194, 234, 247);
+}
+legend{
+    border: 1px black solid;
+    margin-left: 2%;
+    padding: 3px;
+    background-color: rgba(172, 255, 47, 0.596);
+}
+button{
+    border: 1px black solid;
+    margin-left: 2%;
+    padding: 3px;
+    background-color: rgba(172, 255, 47, 0.596);
+}
+.szuletes{
+    padding: 15px;
+}
+.szemelyes{
+    margin-top: 5%;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+}
+.szuletesLabel{
+    width: 300px;
+    float: left;
+    margin-top: 3%;
+}
